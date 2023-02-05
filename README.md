@@ -1,11 +1,9 @@
 # Metacritic Scrapy Project
 
 This project is configured to be hosted on [Scrapy Cloud](https://www.zyte.com/scrapy-cloud/).  
-
 It uses [Zyte Smart Proxy Manager](https://scrapinghub.com/?rfsn=4170080.0597ad) as proxy service.  
-
-The dataset can be found [here](TODO).  
-A Jupyter Notebook with some EDA on that data can be found [here](TODO).
+The dataset can be found [here](https://www.kaggle.com/datasets/patkle/metacritic-scores-for-games-movies-tv-and-music).  
+A Jupyter Notebook with some EDA on that data can be found [here](https://www.kaggle.com/patkle/metacritic-scores-exploration).  
 
 ## Spiders
 
@@ -19,7 +17,7 @@ The spiders can be ran using
 ```zsh
 python3 -m scrapy crawl movies -a pages=5 -O movies.csv
 ```
-where you'd have to replace `movies` with the desired spider name.
+where you need to replace `movies` with the desired spider name.
 
 ### Arguments
 
